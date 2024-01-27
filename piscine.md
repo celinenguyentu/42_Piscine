@@ -111,7 +111,30 @@ La commande `ls` liste les éléments du répertoire courant.
 - `-F` insère une barre oblique après chaque nom de répertoire, un astérisque après chaque nom de fichier exécutable, un signe égal si le fichier est un socket, une barre verticale si le fichier est un FIFO et un @ pour un lien symbolique. 
 
 ### ex05 - GiT commit
+
+Un script shell est un fichier contenant une ou plusieurs commandes. Il permet d'exécuter facilement une série de commandes importante ou compliquée et des tâches de routine. On crée un script shell à l'aide d'un éditeur de texte. Il peut contenir des commandes du système d'exploitation et des commandes intégrée au shell. 
+
+Pour exécuter un script shell, il suffit d'entrer son nom sur la ligne de commande du Terminal. On peut aussi l'exécuter sans le rendre exécutable sous contrôle d'un shell avec une commande de shell (comme `bash`).
+
+- `bash [file].sh` exécute `file` sans le rendre exécutable avec `bash`.
+- `[command] | cat -e` lit et affiche le résultat de la `command` en montrant les caractères non affichables et avec `$` à la fin de chaque ligne avec l'option `-e`.
+- `git log` affiche les commits réalisés sur la branche courante en chronologie inversée.
+    - `--pretty=tformat:%H` permet de contrôler le format de l'affichage.
+        -  `tformat:` permet comme `format:` de spécifier de manière personalisée quelles informations afficher (fonctionnent comme `fprint`), mais fournit une sémantique "terminator" (chaque commit a le caractère de fin, c'est-à-dire une nouvelle ligne).
+        - `%H` référence le hash, ou identifiant, ou empreinte du commit.
+    - `-5` applique une limitation en nombre de commits, ici 5.
+
 ### ex06 - gitignore
+
+- `git status` montre le statut de l'arbre de travail local en détaillant l'état des fichiers modifiés, indexés et ignorés par le dépot distant.
+- `git ls-files` liste les fichiers du répertoire courant qui sont dans le commit (dépot local), l'index et le répertoire de travail.
+    - `--cached` spécifie de lister les fichiers _tracked_, donc suivis par le dépot. Un fichier est suivi à partir du moment où il est indexé.
+    - `--modified` spécifie de lister les fichiers indexés qui ont été modifiés depuis le dernier commit.
+    - `--stage` spécifie de lister les fichiers qui sont indexés.
+    - `--others` spécifie de lister les fichiers _untracked_, c'est-à-dire ignorés, qui ne sont pas pris en compte par le dépot local, ceux qui n'ont jamais été indexé ni commit. 
+    - `--ignored` montre seulement les fichiers ignorés. 
+    - `--exclude-standard` permet d'exclure les fichiers intentionnellement ignorés et exclus par l'utilisateur (avec le fichier `.gitignore` par exemple) lorsque l'options `others` est utilisée.
+
 ### ex07 - diff
 ### ex08 - clean
 ### ex09 - Illusions, not tricks, Michael...
