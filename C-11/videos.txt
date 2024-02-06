@@ -1,0 +1,23 @@
+Intro :
+https://cdn.intra.42.fr/video/video/47/low_d_piscine-C-J10-0.mp4#t=0
+Problematique compilation :
+https://cdn.intra.42.fr/video/video/46/low_d_piscine-C-J10-1.mp4#t=0
+Makefile :
+https://cdn.intra.42.fr/video/video/552/low_d_piscine-C-J10-2.mp4#t=0
+Makefile 2 :
+https://cdn.intra.42.fr/video/video/50/low_d_piscine-C-J10-3.mp4#t=0
+Makefile 3 :
+https://cdn.intra.42.fr/video/video/53/low_d_piscine-C-J10-4_new.mp4#t=0
+Makefile 4 :
+https://cdn.intra.42.fr/video/video/52/low_d_piscine-C-J10-5.mp4#t=0
+Pointeur sur fonction :
+https://cdn.intra.42.fr/video/video/43/low_d_piscine-C-J10-6.mp4#t=0
+Ptr sur fonction 2 :
+https://cdn.intra.42.fr/video/video/51/low_d_piscine-C-J10-7.mp4#t=0
+Ptr sur fonction 3 :
+https://cdn.intra.42.fr/video/video/45/low_d_piscine-C-J10-8.mp4#t=0
+Ptr sur fonction 4 :
+https://cdn.intra.42.fr/video/video/44/low_d_piscine-C-J10-9.mp4#t=0
+
+Youtube : 
+https://www.youtube.com/playlist?list=PLVQYiy6xNUxx8sKygTdqtOPytqN7sb0Vz
