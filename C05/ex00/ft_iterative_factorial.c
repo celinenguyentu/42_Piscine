@@ -6,7 +6,7 @@
 /*   By: cnguyen- <cnguyen-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/15 02:16:43 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/02/15 02:35:04 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/02/21 17:38:24 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,22 +18,25 @@ int	ft_iterative_factorial(int n)
 	if (n < 0)
 		return (0);
 	else
+	{
 		while (n > 1)
 		{
 			res *= n;
 			n--;
 		}
+	}
 	return (res);
 }
 
-	//TEST CASES
+/*	//TEST CASES
 #include <stdio.h>
 
 int	main(void)
 {
-	int	eg[] = {-3, 0, 1, 4, 12};
+	int	eg[] = {-3, 0, 1, 4, 1283923};
 
 	for (int i=0; i<5; i++)
 		printf("factorial %d : %d\n", eg[i], ft_iterative_factorial(eg[i]));
 	return (0);
 }
+*/

@@ -1,0 +1,13 @@
+Videos Day01 :
+Echo, cat, more :
+https://cdn.intra.42.fr/video/video/533/low_d_piscine_C_-_J01_-_0.mp4#t=91
+Head, tail, grep
+https://cdn.intra.42.fr/video/video/534/low_d_piscine_C_-_J01_-_1.mp4#t=0
+Les redirections : 
+https://cdn.intra.42.fr/video/video/535/low_d_piscine_C_-_J01_-_2.mp4#t=0
+Sort cut :
+https://cdn.intra.42.fr/video/video/536/low_d_piscine_C_-_J01_-_3.mp4#t=0
+wc ifconfig bc find env export :
+https://cdn.intra.42.fr/video/video/537/low_d_piscine_C_-_J01_-_4.mp4#t=0
+stdout/stderr :
+https://cdn.intra.42.fr/video/video/538/low_d_piscine_C_-_J01_-_5.mp4#t=0

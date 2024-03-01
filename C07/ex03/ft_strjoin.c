@@ -6,7 +6,7 @@
 /*   By: cnguyen- <cnguyen-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/19 05:54:33 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/02/19 06:36:32 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/02/24 22:58:58 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,6 +69,7 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 	if (!res)
 		return (NULL);
 	i = 0;
+	res[0] = '\0';
 	while (i < size)
 	{
 		ft_strcat(res, strs[i]);
@@ -85,8 +86,8 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 int	main(void)
 {
 		char	*strs[] = {"Coucou", "les", "cocos", "", " ", "!"};
-		char	*sep = " / ";
-		int		size = 6;
+		char	*sep = "//";
+		int	size = 6;
 
 		printf("%s\n", ft_strjoin(size, strs, sep));
 		return (0);
