@@ -1,1 +1,0 @@
-// Recoder la fonction strcmp.
