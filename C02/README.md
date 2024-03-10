@@ -16,4 +16,4 @@ Exercise						| Score
 05 - ft_strcapitalize			| OK
 06 - ft_strlcpy					| OK
 07 - ft_putstr_non_printable	| OK
-08 - ft_print_memory			| KO
+08 - ft_print_memory			| WIP
