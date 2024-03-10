@@ -14,7 +14,7 @@ Project		|  Subjects                                                     | Resou
 ------------|---------------------------------------------------------------|-------------------------
 Shell 00	| [`FR`](Shell00/fr.subject.pdf) [`EN`](Shell00/en.subject.pdf) | [`Completed`](Shell00)
 Shell 01	| [`FR`](Shell01/fr.subject.pdf) [`EN`](Shell01/en.subject.pdf) | [`Completed`](Shell01)
-C 00	    | [`FR`](C00/fr.subject.pdf) [`EN`](C00/en.subject.pdf)         | [`WIP`](C00)
+C 00	    | [`FR`](C00/fr.subject.pdf) [`EN`](C00/en.subject.pdf)         | [`Completed`](C00)
 C 01	    | [`FR`](C01/fr.subject.pdf) [`EN`](C01/en.subject.pdf)         | [`WIP`](C01)
 C 02	    | [`FR`](C02/fr.subject.pdf) [`EN`](C02/en.subject.pdf)         | [`WIP`](C02)
 C 03	    | [`FR`](C03/fr.subject.pdf) [`EN`](C03/en.subject.pdf)         | [`WIP`](C03)
@@ -28,7 +28,6 @@ C 10	    | [`FR`](C10/fr.subject.pdf) [`EN`](C10/en.subject.pdf)         | [`WIP
 C 11	    | [`FR`](C11/fr.subject.pdf) [`EN`](C11/en.subject.pdf)         | [`WIP`](C11)
 C 12	    | [`FR`](C12/fr.subject.pdf) [`EN`](C12/en.subject.pdf)         | [`WIP`](C12)
 C 13	    | [`FR`](C13/fr.subject.pdf) [`EN`](C13/en.subject.pdf)         | [`WIP`](C13)
-
 
 ## Useful links
 
