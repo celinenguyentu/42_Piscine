@@ -29,6 +29,22 @@ C 11	    | [`FR`](C11/fr.subject.pdf) [`EN`](C11/en.subject.pdf)         | [`Com
 C 12	    | [`FR`](C12/fr.subject.pdf) [`EN`](C12/en.subject.pdf)         | [`Completed`](C12)
 C 13	    | [`FR`](C13/fr.subject.pdf) [`EN`](C13/en.subject.pdf)         | [`Completed`](C13)
 
+<table>
+<tr><th>Table 1 Heading 1 </th><th>Table 1 Heading 2</th></tr>
+<tr><td>
+
+|Table 1| Middle | Table 2|
+|--|--|--|
+|a| not b|and c |
+
+</td><td>
+
+|b|1|2|3| 
+|--|--|--|--|
+|a|s|d|f|
+
+</td></tr> </table>
+
 ## Useful links
 
 * [`42 Header for Vim`](https://github.com/42Paris/42header)
