@@ -1,0 +1,9 @@
+Pedago 42 :
+https://www.youtube.com/playlist?list=PLVQYiy6xNUxwmUOmyYSaI6gD1UyfF9MSj
+
+Listes chainees :
+https://cdn.intra.42.fr/video/video/63/low_d_piscine-C-J11-0.mp4#t=0
+Listes chainees exemples :
+https://cdn.intra.42.fr/video/video/68/low_d_piscine-C-J11-1.mp4#t=0
+Pointeur sur pointeur :
+https://cdn.intra.42.fr/video/video/67/low_d_piscine-C-J11-2.mp4#t=0
