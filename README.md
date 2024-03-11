@@ -13,7 +13,7 @@ Here you will find the subjects of all available projects, video tutorials intro
 <table>
 <tr><td>
 
-Project		|  Subjects                                                     | Resources and Solutions
+Project		|  Subjects                                                     | Resources + Solutions
 ------------|---------------------------------------------------------------|-------------------------
 Shell 00	| [`FR`](Shell00/fr.subject.pdf) [`EN`](Shell00/en.subject.pdf) | [`Completed`](Shell00)
 Shell 01	| [`FR`](Shell01/fr.subject.pdf) [`EN`](Shell01/en.subject.pdf) | [`Completed`](Shell01)
@@ -34,7 +34,7 @@ C 13	    | [`FR`](C13/fr.subject.pdf) [`EN`](C13/en.subject.pdf)         | [`Com
 
 </td><td>
 
-Project		|  Subjects														| Resources and Solutions
+Project		|  Subjects														| Resources + Solutions
 ------------|---------------------------------------------------------------|-----------------------
 Rush 00		| [`FR`](Rush00/fr.subject.pdf) [`EN`](Rush00/en.subject.pdf) 	| [`Completed`](Rush00)
 Rush 01		| [`FR`](Rush01/fr.subject.pdf) [`EN`](Rush01/en.subject.pdf) 	| [`WIP`](Rush01)
