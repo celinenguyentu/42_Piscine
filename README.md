@@ -10,6 +10,9 @@ Here you will find the subjects of all available projects, video tutorials intro
 
 ## Table of contents
 
+<table>
+<tr><td>
+
 Project		|  Subjects                                                     | Resources and Solutions
 ------------|---------------------------------------------------------------|-------------------------
 Shell 00	| [`FR`](Shell00/fr.subject.pdf) [`EN`](Shell00/en.subject.pdf) | [`Completed`](Shell00)
@@ -29,19 +32,14 @@ C 11	    | [`FR`](C11/fr.subject.pdf) [`EN`](C11/en.subject.pdf)         | [`Com
 C 12	    | [`FR`](C12/fr.subject.pdf) [`EN`](C12/en.subject.pdf)         | [`Completed`](C12)
 C 13	    | [`FR`](C13/fr.subject.pdf) [`EN`](C13/en.subject.pdf)         | [`Completed`](C13)
 
-<table>
-<tr><th>Table 1 Heading 1 </th><th>Table 1 Heading 2</th></tr>
-<tr><td>
-
-|Table 1| Middle | Table 2|
-|--|--|--|
-|a| not b|and c |
-
 </td><td>
 
-|b|1|2|3| 
-|--|--|--|--|
-|a|s|d|f|
+Project		|  Subjects														| Resources and Solutions
+------------|---------------------------------------------------------------|-----------------------
+Rush 00		| [`FR`](Rush00/fr.subject.pdf) [`EN`](Rush00/en.subject.pdf) 	| [`Completed`](Rush00)
+Rush 01		| [`FR`](Rush01/fr.subject.pdf) [`EN`](Rush01/en.subject.pdf) 	| [`WIP`](Rush01)
+Rush 02		| `FR` `EN` 													| [`WIP`](Rush02)
+BSQ			| `FR` [`EN`](BSQ/bsq.pdf)										| [`WIP`](BSQ)
 
 </td></tr> </table>
 
