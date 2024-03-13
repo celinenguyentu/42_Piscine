@@ -39,7 +39,7 @@ Project		|  Subjects														| Resources + Solutions
 Rush 00		| [`FR`](Rush00/fr.subject.pdf) [`EN`](Rush00/en.subject.pdf) 	| [`Completed`](Rush00)
 Rush 01		| [`FR`](Rush01/fr.subject.pdf) [`EN`](Rush01/en.subject.pdf) 	| [`WIP`](Rush01)
 Rush 02		| `FR` `EN` 													| [`WIP`](Rush02)
-BSQ			| `FR` [`EN`](BSQ/bsq.pdf)										| [`WIP`](BSQ)
+BSQ			| [`FR`](BSQ/bsq.pdf) `EN`										| [`WIP`](BSQ)
 
 </td></tr> </table>
 
