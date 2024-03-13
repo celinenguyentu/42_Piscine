@@ -6,7 +6,7 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/05 22:55:50 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/13 03:24:43 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/13 23:49:42 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,15 +86,11 @@ void	delete(void *data)
 	printf("deleting data %s\n", (char *)data);
 }
 
-int	ft_strcmp(void *str1, void *str2)
+int	ft_strcmp(char *s1, char *s2)
 {
 	int		i;
-	char	*s1;
-	char	*s2;
 
 	i = 0;
-	s1 = (char *)str1;
-	s2 = (char *)str2;
 	while (s1[i] == s2[i] && s1[i])
 		i++;
 	return (s1[i] - s2[i]);

@@ -6,7 +6,7 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/07 18:41:29 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/13 03:22:45 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/13 23:53:32 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,15 +14,10 @@
 
 int	ft_list_size(t_list *begin_list)
 {
-	int		size;
-
-	size = 0;
-	while (begin_list)
-	{
-		size++;
-		begin_list = begin_list->next;
-	}
-	return (size);
+	if (!begin_list)
+		return (0);
+	else
+		return (1 + ft_list_size(begin_list->next));
 }
 
 void	ft_list_reverse_fun(t_list *begin_list)

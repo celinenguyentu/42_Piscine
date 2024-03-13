@@ -6,7 +6,7 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/06 05:28:41 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/13 03:23:33 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/13 23:50:07 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,15 +80,11 @@ void	ft_print_list(t_list *list)
 	ft_print_list(list->next);
 }
 
-int	ft_strcmp(void *str1, void *str2)
+int	ft_strcmp(char *s1, char *s2)
 {
 	int		i;
-	char	*s1;
-	char	*s2;
 
 	i = 0;
-	s1 = (char *)str1;
-	s2 = (char *)str2;
 	while (s1[i] == s2[i] && s1[i])
 		i++;
 	return (s1[i] - s2[i]);
