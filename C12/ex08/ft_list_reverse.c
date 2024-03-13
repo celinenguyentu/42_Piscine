@@ -6,7 +6,7 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/05 21:25:27 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/11 02:58:04 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/13 03:27:44 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	ft_list_reverse(t_list **begin_list)
 	t_list	*current;
 
 	current = *begin_list;
-	prev = 0;
+	prev = NULL;
 	while (current)
 	{
 		next = current->next;
@@ -32,7 +32,6 @@ void	ft_list_reverse(t_list **begin_list)
 
 /*	//TEST CASES
 #include <stdio.h>
-#include <stdlib.h>
 
 t_list	*ft_create_elem(void *data)
 {

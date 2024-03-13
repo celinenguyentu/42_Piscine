@@ -6,7 +6,7 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/05 21:58:42 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/10 22:26:25 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/13 03:26:21 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_list_foreach(t_list	*begin_list, void (*f)(void *))
 {
-	while (begin_list && f)
+	while (begin_list)
 	{
 		f(begin_list->data);
 		begin_list = begin_list->next;
@@ -23,7 +23,6 @@ void	ft_list_foreach(t_list	*begin_list, void (*f)(void *))
 
 /*	//TEST CASES
 #include <stdio.h>
-#include <stdlib.h>
 
 t_list	*ft_create_elem(void *data)
 {

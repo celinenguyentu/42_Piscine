@@ -6,7 +6,7 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/07 18:41:29 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/11 01:47:03 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/13 03:22:45 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,6 @@ void	ft_list_reverse_fun(t_list *begin_list)
 
 /*	//TEST CASES
 #include <stdio.h>
-#include <stdlib.h>
 
 t_list	*ft_create_elem(void *data)
 {

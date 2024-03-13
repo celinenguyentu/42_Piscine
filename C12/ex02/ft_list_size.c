@@ -6,7 +6,7 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/05 09:36:05 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/10 20:12:13 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/13 03:31:27 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@ int	ft_list_size(t_list *begin_list)
 
 /*	//TEST CASES
 #include <stdio.h>
-#include <stdlib.h>
 
 t_list	*ft_create_elem(void *data)
 {

@@ -6,22 +6,20 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/07 20:30:25 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/11 03:18:34 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/13 03:20:06 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_list.h"
-#include <stdlib.h>
 
-void	ft_sorted_list_insert(t_list **begin_list, void *data,
-int (*cmp)(void *, void *))
+void	ft_sorted_list_insert(t_list **begin_list, void *data, int (*cmp)())
 {
 	t_list	*elem;
 	t_list	*current;
 
 	elem = ft_create_elem(data);
 	current = *begin_list;
-	if (elem && data && cmp)
+	if (elem)
 	{
 		if (!current || cmp(current->data, data) > 0)
 		{
@@ -36,8 +34,6 @@ int (*cmp)(void *, void *))
 			current->next = elem;
 		}
 	}
-	else
-		free(elem);
 }
 
 /*	//TEST CASES

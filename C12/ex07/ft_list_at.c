@@ -6,7 +6,7 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/05 21:09:44 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/11 02:54:15 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/13 03:28:09 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,12 +25,11 @@ t_list	*ft_list_at(t_list *begin_list, unsigned int nbr)
 	if (i == nbr)
 		return (begin_list);
 	else
-		return (0);
+		return (NULL);
 }
 
 /*	//TEST CASES
 #include <stdio.h>
-#include <stdlib.h>
 
 t_list	*ft_create_elem(void *data)
 {

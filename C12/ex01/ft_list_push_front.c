@@ -6,7 +6,7 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/03 05:38:40 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/11 02:44:22 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/13 03:32:19 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,6 @@ void	ft_list_push_front(t_list **begin_list, void *data)
 
 /*	//TEST CASES
 #include <stdio.h>
-#include <stdlib.h>
 
 t_list	*ft_create_elem(void *data)
 {

@@ -6,20 +6,20 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/07 21:55:52 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/11 02:29:40 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/13 03:22:03 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_list.h"
 
 void	ft_sorted_list_merge(t_list **begin_list1, t_list *begin_list2,
-int (*cmp)(void *, void *))
+int (*cmp)())
 {
 	t_list	*current;
 	t_list	*insert;
 
 	current = *begin_list1;
-	while (begin_list2 && cmp)
+	while (begin_list2)
 	{
 		insert = begin_list2;
 		begin_list2 = begin_list2->next;
@@ -41,7 +41,6 @@ int (*cmp)(void *, void *))
 
 /*	//TEST CASES
 #include <stdio.h>
-#include <stdlib.h>
 
 t_list	*ft_create_elem(void *data)
 {

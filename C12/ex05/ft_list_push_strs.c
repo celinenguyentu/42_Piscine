@@ -6,7 +6,7 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/05 12:09:00 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/11 02:39:23 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/13 03:28:53 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,15 +31,14 @@ t_list	*ft_list_push_strs(int size, char **strs)
 	t_list	*list;
 
 	idx = 0;
-	list = 0;
-	while (idx < size)
+	list = NULL;
+	while (idx < size && *strs)
 		ft_list_push_front(&list, strs[idx++]);
 	return (list);
 }
 
 /*	//TEST CASES
 #include <stdio.h>
-#include <stdlib.h>
 
 t_list	*ft_create_elem(void *data)
 {

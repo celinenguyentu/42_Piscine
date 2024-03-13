@@ -6,21 +6,21 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/06 05:28:41 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/11 03:07:08 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/13 03:23:33 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_list.h"
 
-void	ft_list_sort(t_list **begin_list, int (*cmp)(void *, void *))
+void	ft_list_sort(t_list **begin_list, int (*cmp)())
 {
 	t_list	*current;
 	t_list	*output;
 	t_list	*tmp;
 
 	current = *begin_list;
-	output = 0;
-	while (current && cmp)
+	output = NULL;
+	while (current)
 	{
 		*begin_list = (*begin_list)->next;
 		if (!output || cmp(output->data, current->data) > 0)
@@ -43,7 +43,6 @@ void	ft_list_sort(t_list **begin_list, int (*cmp)(void *, void *))
 
 /*	//TEST CASES
 #include <stdio.h>
-#include <stdlib.h>
 
 t_list	*ft_create_elem(void *data)
 {

@@ -6,12 +6,11 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/03 05:08:36 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/11 02:42:38 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/13 03:32:45 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_list.h"
-#include <stdlib.h>
 
 t_list	*ft_create_elem(void *data)
 {

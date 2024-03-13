@@ -6,12 +6,14 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/05 09:50:24 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/10 19:47:33 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/13 03:22:50 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_LIST_H
 # define FT_LIST_H
+
+# include <stdlib.h>
 
 typedef struct s_list
 {

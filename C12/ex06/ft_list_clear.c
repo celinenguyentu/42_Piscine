@@ -6,16 +6,15 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/05 12:28:08 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/11 02:37:35 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/13 03:28:29 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_list.h"
-#include <stdlib.h>
 
 void	ft_list_clear(t_list *begin_list, void (*free_fct)(void *))
 {
-	if (begin_list && free_fct)
+	if (begin_list)
 	{
 		if (begin_list->next)
 			ft_list_clear(begin_list->next, free_fct);

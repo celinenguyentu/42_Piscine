@@ -6,7 +6,7 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/05 11:27:45 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/11 02:46:20 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/13 03:29:38 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,6 @@ void	ft_list_push_back(t_list **begin_list, void *data)
 
 /*	//TEST CASES
 #include <stdio.h>
-#include <stdlib.h>
 
 t_list	*ft_create_elem(void *data)
 {

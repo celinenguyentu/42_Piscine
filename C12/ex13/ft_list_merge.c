@@ -6,7 +6,7 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/06 00:00:37 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/11 01:09:15 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/13 03:24:01 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,6 @@ void	ft_list_merge(t_list **begin_list, t_list *begin_list2)
 
 /*	//TEST CASES
 #include <stdio.h>
-#include <stdlib.h>
 
 t_list	*ft_create_elem(void *data)
 {

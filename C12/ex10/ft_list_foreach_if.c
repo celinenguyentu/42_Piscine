@@ -6,16 +6,16 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/05 22:12:37 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/11 02:35:26 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/13 03:25:29 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_list.h"
 
 void	ft_list_foreach_if(t_list *begin_list, void (*f)(void *), void
-*data_ref, int (*cmp)(void *, void *))
+*data_ref, int (*cmp)())
 {
-	while (begin_list && f && cmp && data_ref)
+	while (begin_list)
 	{
 		if (cmp(begin_list->data, data_ref) == 0)
 			f(begin_list->data);
@@ -25,7 +25,6 @@ void	ft_list_foreach_if(t_list *begin_list, void (*f)(void *), void
 
 /*	//TEST CASES
 #include <stdio.h>
-#include <stdlib.h>
 
 t_list	*ft_create_elem(void *data)
 {
