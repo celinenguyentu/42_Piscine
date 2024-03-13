@@ -6,7 +6,7 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/08 14:03:37 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/13 04:04:04 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/14 00:09:55 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,22 +51,22 @@ void *))
 
 	current = *root;
 	node = btree_create_node(item);
-	if (!current && item)
+	if (!current)
 		*root = node;
-	else if (node && item && cmpf)
+	else if (node)
 	{
 		while (current)
 		{
-			if (cmpf(current->item, node->item) > 0 && current->left)
+			if (cmpf(current->item, item) > 0 && current->left)
 				current = current->left;
-			else if (cmpf(current->item, node->item) <= 0 && current->right)
+			else if (cmpf(current->item, item) <= 0 && current->right)
 				current = current->right;
 			else
 				break ;
 		}
-		if (cmpf(current->item, node->item) > 0)
+		if (cmpf(current->item, item) > 0)
 			current->left = node;
-		else if (cmpf(current->item, node->item) <= 0)
+		else if (cmpf(current->item, item) <= 0)
 			current->right = node;
 	}
 }
