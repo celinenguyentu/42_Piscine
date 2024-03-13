@@ -22,3 +22,5 @@ Exercise						| Score
 15 - ft_list_reverse_fun		| not rated
 16 - ft_sorted_list_insert		| not rated
 17 - ft_sorted_list_merge		| not rated
+
+Functions need to be compiled with gcc or older version of clang since the subject prototypes don't match new clang standards. 
