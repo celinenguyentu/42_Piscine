@@ -6,12 +6,14 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/08 01:31:25 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/08 02:06:38 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/13 04:10:02 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_BTREE_H
 # define FT_BTREE_H
+
+# include <stdlib.h>
 
 typedef struct s_btree
 {

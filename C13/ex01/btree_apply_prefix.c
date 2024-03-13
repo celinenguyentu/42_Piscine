@@ -6,7 +6,7 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/08 02:08:30 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/11 03:46:25 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/13 03:55:07 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	btree_apply_prefix(t_btree *root, void (*applyf)(void *))
 {
-	if (root && applyf)
+	if (root)
 	{
 		applyf(root->item);
 		btree_apply_prefix(root->left, applyf);
@@ -24,7 +24,6 @@ void	btree_apply_prefix(t_btree *root, void (*applyf)(void *))
 
 /*	//TEST CASES
 #include <stdio.h>
-#include <stdlib.h>
 
 t_btree	*btree_create_node(void *item)
 {

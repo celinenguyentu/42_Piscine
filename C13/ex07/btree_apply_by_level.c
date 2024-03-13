@@ -6,7 +6,7 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/08 16:27:22 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/11 04:36:22 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/13 04:07:35 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,13 +54,12 @@ int current_level, int is_first_elem))
 
 	level = 0;
 	max_level = btree_level_count(root);
-	while (level < max_level && root && applyf)
+	while (level < max_level)
 		btree_apply(root, 0, level++, applyf);
 }
 
 /*	//TEST CASES
 #include <stdio.h>
-#include <stdlib.h>
 
 t_btree	*btree_create_node(void *item)
 {

@@ -6,12 +6,11 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/08 01:41:24 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/11 03:45:57 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/13 03:54:00 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_btree.h"
-#include <stdlib.h>
 
 t_btree	*btree_create_node(void *item)
 {

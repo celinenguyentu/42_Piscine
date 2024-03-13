@@ -6,7 +6,7 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/08 14:03:37 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/11 04:16:42 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/13 04:04:04 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 void	*btree_search_item(t_btree *root, void *data_ref,
 int (*cmpf)(void *, void *))
 {
-	if (root && data_ref && cmpf)
+	if (root)
 	{
 		if (btree_search_item(root->left, data_ref, cmpf))
 			return (btree_search_item(root->left, data_ref, cmpf));
@@ -24,12 +24,11 @@ int (*cmpf)(void *, void *))
 		if (btree_search_item(root->right, data_ref, cmpf))
 			return (btree_search_item(root->right, data_ref, cmpf));
 	}
-	return (0);
+	return (NULL);
 }
 
 /*	//TEST CASES
 #include <stdio.h>
-#include <stdlib.h>
 
 t_btree	*btree_create_node(void *item)
 {
