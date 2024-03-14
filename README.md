@@ -27,7 +27,7 @@ C 06	    | [`FR`](C06/fr.subject.pdf) [`EN`](C06/en.subject.pdf)         | [`Com
 C 07	    | [`FR`](C07/fr.subject.pdf) [`EN`](C07/en.subject.pdf)         | [`Completed`](C07)
 C 08	    | [`FR`](C08/fr.subject.pdf) [`EN`](C08/en.subject.pdf)         | [`Completed`](C08)
 C 09	    | [`FR`](C09/fr.subject.pdf) [`EN`](C09/en.subject.pdf)         | [`Completed`](C09)
-C 10	    | [`FR`](C10/fr.subject.pdf) [`EN`](C10/en.subject.pdf)         | [`0/4`](C10)
+C 10	    | [`FR`](C10/fr.subject.pdf) [`EN`](C10/en.subject.pdf)         | [`1/4`](C10)
 C 11	    | [`FR`](C11/fr.subject.pdf) [`EN`](C11/en.subject.pdf)         | [`Completed`](C11)
 C 12	    | [`FR`](C12/fr.subject.pdf) [`EN`](C12/en.subject.pdf)         | [`Completed`](C12)
 C 13	    | [`FR`](C13/fr.subject.pdf) [`EN`](C13/en.subject.pdf)         | [`Completed`](C13)
