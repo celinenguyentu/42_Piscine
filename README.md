@@ -19,7 +19,7 @@ Shell 00	| [`FR`](Shell00/fr.subject.pdf) [`EN`](Shell00/en.subject.pdf) | [`Com
 Shell 01	| [`FR`](Shell01/fr.subject.pdf) [`EN`](Shell01/en.subject.pdf) | [`Completed`](Shell01)
 C 00	    | [`FR`](C00/fr.subject.pdf) [`EN`](C00/en.subject.pdf)         | [`Completed`](C00)
 C 01	    | [`FR`](C01/fr.subject.pdf) [`EN`](C01/en.subject.pdf)         | [`Completed`](C01)
-C 02	    | [`FR`](C02/fr.subject.pdf) [`EN`](C02/en.subject.pdf)         | [`12/13`](C02)
+C 02	    | [`FR`](C02/fr.subject.pdf) [`EN`](C02/en.subject.pdf)         | [`Completed`](C02)
 C 03	    | [`FR`](C03/fr.subject.pdf) [`EN`](C03/en.subject.pdf)         | [`Completed`](C03)
 C 04	    | [`FR`](C04/fr.subject.pdf) [`EN`](C04/en.subject.pdf)         | [`Completed`](C04)
 C 05	    | [`FR`](C05/fr.subject.pdf) [`EN`](C05/en.subject.pdf)         | [`Completed`](C05)
