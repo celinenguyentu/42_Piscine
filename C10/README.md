@@ -5,6 +5,6 @@
 Exercise			| Score  
 --------------------|--------
 00 - display_file	| not rated
-01 - cat			| WIP
-02 - tail 			| WIP
+01 - cat			| not rated
+02 - tail 			| not rated
 03 - hexdump		| WIP
