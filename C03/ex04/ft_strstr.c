@@ -6,7 +6,7 @@
 /*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/08 22:27:15 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/03/10 16:19:36 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/03/26 04:33:15 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,13 +43,13 @@ int	main(void)
 	char	needle4[] = ",";
 
 	printf("'%s' found by strstr\n", strstr(haystack, needle1));
-	printf("'%s' found by ft_strstr\n", strstr(haystack, needle1));
+	printf("'%s' found by ft_strstr\n", ft_strstr(haystack, needle1));
 	printf("'%s' found by strstr\n", strstr(haystack, needle2));
-	printf("'%s' found by ft_strstr\n", strstr(haystack, needle2));
+	printf("'%s' found by ft_strstr\n", ft_strstr(haystack, needle2));
 	printf("'%s' found by strstr\n", strstr(haystack, needle3));
-	printf("'%s' found by ft_strstr\n", strstr(haystack, needle3));
+	printf("'%s' found by ft_strstr\n", ft_strstr(haystack, needle3));
 	printf("'%s' found by strstr\n", strstr(haystack, needle4));
-	printf("'%s' found by ft_strstr\n", strstr(haystack, needle4));
+	printf("'%s' found by ft_strstr\n", ft_strstr(haystack, needle4));
 	return (0);
 }
 */
